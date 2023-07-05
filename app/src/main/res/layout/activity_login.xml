@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LoginActivity">
+    
+    
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        app:layout_constraintBottom_toTopOf="@id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        >
+
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Title"
+            android:id="@+id/loginNow"
+            android:textColor="#1875C6"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login Now" />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:id="@+id/subLoginText"
+            android:textColor="#1875C6"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Please login to proceed further" />
+
+        <EditText
+            android:id="@+id/EmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter your email"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginTop="32dp"
+            android:textSize="16sp"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:ems="10"
+            android:hint="Enter your password"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLogIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/styles"
+            android:text="Log in"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-black" />
+
+        <TextView
+            android:id="@+id/btnSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account? Signup"
+            android:textSize="16sp"
+            android:textColor="#1875C6"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_wave"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="544dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

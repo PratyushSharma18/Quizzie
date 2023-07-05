@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1075163295418",
+    "project_id": "quizzie-d65e0",
+    "storage_bucket": "quizzie-d65e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075163295418:android:d5bbeff98b22033952dc83",
+        "android_client_info": {
+          "package_name": "com.pratyushvkp.quizzie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075163295418-49prbq4echorcim708cmgqdt9elr8gq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg5EO6H2P_kxpcOvHQVysIfYbe9TCqgTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075163295418-49prbq4echorcim708cmgqdt9elr8gq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
