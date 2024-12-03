@@ -1,6 +1,9 @@
 # Quizzie: A Quiz App
 
+![quizAppIcon](https://github.com/user-attachments/assets/90ab9a83-eae6-4337-8988-ad503ae7a973)
+
 ## Overview
+
 Quizzie is an Android application designed for users who have a keen interest in attempting quizzes to foster their knowledge. It features an impressive UI and a proper authentication system for registered users. The app allows users to attempt quizzes posted on specific dates by selecting them via a calendar.
 
 ## Features and Functionalities
