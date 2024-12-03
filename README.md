@@ -1,25 +1,35 @@
 # Quizzie: A Quiz App
 
-## It is an Android application designed for users who have keen interest in attempting quizzes for to foster their knowledge. It is built in with impressive UI and proper authentication system for registered users. It has a system which allows you to attempt quiz as per posted date by selecting via calendar.
+## Overview
+Quizzie is an Android application designed for users who have a keen interest in attempting quizzes to foster their knowledge. It features an impressive UI and a proper authentication system for registered users. The app allows users to attempt quizzes posted on specific dates by selecting them via a calendar.
 
-### Here are the following Usages/Implementations by which this application is built:
+## Features and Functionalities
 
-- Usage of Firebase Firestore Authentication system for login/signup of users.
+### User Accounts
+- **Signup and Login:** Users can create new accounts or log in to existing ones using Firebase Firestore Authentication.
 
-- Usage of Firebase Cloudstore to store the data of quizzes updated datewise.
+### Quiz Management
+- **Date Selection:** Users can choose the date for specific quizzes posted on selected dates using a date picker.
+- **Quiz Display:** Quizzes are displayed using RecyclerView. The mainActivity sets up the quiz layout, and the questionActivity sets up the options layout.
+- **Result Evaluation:** The resultActivity evaluates and shows the total score obtained in the attempted quiz.
 
-- Usage of Google json library to pasre the JSON data from cloudstore database.
+### Navigation
+- **Navigation Drawer:** Implemented using navigationView and materialToolbar for easy navigation within the app.
 
-- Usage of View binding in order to bind our functionality with the layout resources in xml files.
+## Technologies Used
 
-- Usage of navigationView materialToolbar in order to implement the navigation drawer in application layout.
+### Frontend
+- **Kotlin:** The app is fully developed using Kotlin, providing modern language features and improved performance.
+- **XML:** Used for designing the user interface.
+- **Android Material Design:** Used for selecting specific layout designs for the application.
 
-- Usage of datePicker in order to choose date for specific quiz posted on a selected date.
+### Backend
+- **Firebase Firestore:** For authentication and storing quiz data updated datewise.
+- **Google JSON Library:** For parsing JSON data from the Cloudstore database.
 
-- Implementation of recyclerView and setting up of recyclerView adapter in mainActivity for quiz layout and in questionActivity for option layout.
+### Implementations/Usages
+- **View Binding:** For binding functionality with layout resources in XML files.
+- **RecyclerView:** For displaying the list of quizzes and options.
+- **DatePicker:** For choosing dates for specific quizzes.
+- **Navigation Drawer:** For implementing the navigation drawer in the application layout.
 
-- Setting up of resultActivity which on evaluation shows the total score obtained in the attempted quiz.
-
-- Assistance of Android Material design for choosing specific layouts designing for the application.
-
-  
